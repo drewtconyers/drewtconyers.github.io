@@ -1,8 +1,9 @@
   body {
-    font-family: Verdana, sans-serif;
     background-color:#040404;
     margin: 0;
     padding: 0;
+    font-family: "Space Mono", monospace, sans-serif;
+    font-weight: 400;
   }
   
   header {
@@ -71,7 +72,7 @@
   
   footer {
     background-color: #040404;
-    color:#b7b6b5;
+    color:#84643e;
     padding: 10px;
     text-align: center;
   }
