@@ -1,4 +1,9 @@
-  body {
+@font-face {
+  font-family: "Nouvelle Grotesk";
+  src: url('drewtconyers.github.io/NNNouvelleGroteskSTD-Medium.otf') format('opentype');
+}
+
+body {
     background-color:#040404;
     margin: 0;
     padding: 0;
