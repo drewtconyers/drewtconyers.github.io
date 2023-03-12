@@ -8,20 +8,44 @@ Change at least two box model properties of any tag, class, or id. 0.2
 Include an image (something safe for work). 0.2
 Correctly use a <meta> “description” tag to describe your site to search engines. 0.2
 Deploy the page to yourgithubusername.github.io using GitHub Pages. 0.2 -->
-<!doctype html>
 <html>
 <head>
-<link rel="stylesheet" href="stylesheet.css">
-<title>drewtconyers</title>
-<meta name="description" content="Our first page">
-<meta name="keywords" content="html tutorial template">
+	<meta charset="UTF-8">
+	<title>My Personal Website</title>
+	<meta name="description" content="This is my personal website.">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
-<h1>
-    Drew Conyers
-</h1>
-<a href="https://www.linkedin.com/in/drewtconyers/">LinkedIn</a>
-
-
+	<header>
+		<h1>Welcome to my Personal Website!</h1>
+		<nav>
+			<ul>
+				<li><a href="#about-me">About Me</a></li>
+				<li><a href="#interests">Interests</a></li>
+				<li><a href="https://www.linkedin.com/in/mylinkedinprofile/" target="_blank">LinkedIn</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="about-me">
+			<h2>About Me</h2>
+			<div class="content">
+				<p>My name is Drew and I am an electrical engineer in Austin.</p>
+				<img src="profile-pic.jpg" alt="Picture of Drew">
+			</div>
+		</section>
+		
+		<section id="interests">
+			<h2>Interests</h2>
+			<div class="content">
+				<p>JCN Farms.</p>
+			</div>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Copyright © 2023 Drew Conyers</p>
+	</footer>
 </body>
 </html>
